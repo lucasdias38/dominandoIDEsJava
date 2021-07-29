@@ -1,3 +1,4 @@
+//Atualiza√ß√£o de teste Calc
 package com.dio.calc;
 import java.util.Scanner; 
 public class Calc {
@@ -13,19 +14,19 @@ public class Calc {
 		b = scan.nextDouble();
 		
 		double soma = soma (a,b);
-		System.out.println("Soma È: " + soma);
+		System.out.println("Soma √©: " + soma);
 		
 		double subtracao = subtracao (a,b);
-		System.out.println("SubtraÁ„o È: " + subtracao);
+		System.out.println("Subtra√ß√£o √©: " + subtracao);
 		
 		double multiplicacao = multiplicacao (a,b);
-		System.out.println("MultiplicaÁ„o È: " + multiplicacao);
+		System.out.println("Multiplica√ß√£o √©: " + multiplicacao);
 		
 		double divisao = divisao (a,b);
-		System.out.println("Divis„o È: " + divisao);
+		System.out.println("Divis√£o √©: " + divisao);
 	}
 	
-	//FunÁıes
+	//Fun√ß√µes
 	public static double soma (double a, double b) {
 		return a + b;
 	}
